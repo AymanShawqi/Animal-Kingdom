@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="scroll_view_padding">12dp</dimen>
+    <dimen name="heading_text_size">26sp</dimen>
+    <dimen name="heading_margin_bottom">22dp</dimen>
+    <dimen name="q_animal_image_height">350dp</dimen>
+    <dimen name="radio_padding_vertical">6dp</dimen>
+    <dimen name="radio_padding_horizontal">12dp</dimen>
+    <dimen name="radio_layout_margin_vertical">6dp</dimen>
+    <dimen name="radio_text_size">24sp</dimen>
+    <dimen name="icon_layout_size">72dp</dimen>
+    <dimen name="icon_layout_margin">5dp</dimen>
+    <dimen name="check_layout_width">84dp</dimen>
+    <dimen name="check_layout_height">84dp</dimen>
+    <dimen name="check_padding">10dp</dimen>
+    <dimen name="check_textSize">20sp</dimen>
+    <dimen name="sign_size">48dp</dimen>
+    <dimen name="sign_padding_left">10dp</dimen>
+</resources>

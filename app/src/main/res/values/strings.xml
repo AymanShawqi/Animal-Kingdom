@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Quize App</string>
+    <string name="animal_kindom">Animal Kindom</string>
+    <string name="learning">Learning</string>
+    <string name="question_1">Question 1</string>
+    <string name="question_2">Question 2</string>
+    <string name="question_3">Question 3</string>
+    <string name="checkboxQ1">It is dangrous</string>
+    <string name="checkboxQ2">We can see it in a farm</string>
+    <string name="checkboxQ3">It eats meat</string>
+    <string name="checkboxQ4">It eat grass or grain</string>
+    <string name="Q2">Check correct phrase about the animal</string>
+    <string name="animal_image">animal Image</string>
+    <string name="check">Check</string>
+    <string name="question3">Write The Animal Name :</string>
+    <string name="q1">Q1: Choose The Correct Animal Name</string>
+    <string name="lion">lion</string>
+    <string name="giraffe">giraffe</string>
+    <string name="tiger">tiger</string>
+    <string name="elephant">elephant</string>
+    <string name="next">next</string>
+    <string name="wrong_answer">wrong answer</string>
+    <string name="correct_answer">correct answer</string>
+    <string name="next_question">next question</string>
+    <string name="score">Score</string>
+    <string name="question_result"> Your Score is %1$d from %2$d"</string>
+</resources>

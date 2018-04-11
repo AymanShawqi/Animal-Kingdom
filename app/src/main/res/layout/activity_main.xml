@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    android:fillViewport="true"
+    tools:context="com.example.androidl.quizeapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/animal_kindom"
+            style="@style/heading"
+            android:layout_marginBottom="12dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/animal_kingdom"
+            android:contentDescription="@string/animal_kindom"
+            android:scaleType="fitCenter"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/learning"
+                android:theme="@style/AppTheme.Button"
+                style="@style/ButtonStyleSmall"
+                android:onClick="openLearning"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_1"
+                android:theme="@style/AppTheme.Button"
+                style="@style/ButtonStyleSmall"
+                android:onClick="openQ1"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_2"
+                android:theme="@style/AppTheme.Button"
+                style="@style/ButtonStyleSmall"
+                android:onClick="openQ2"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_3"
+                android:theme="@style/AppTheme.Button"
+                style="@style/ButtonStyleSmall"
+                android:onClick="openQ3"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

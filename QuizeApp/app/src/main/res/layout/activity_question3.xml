@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    android:padding="12dp"
+    android:orientation="vertical"
+    tools:context="com.example.androidl.quizeapp.Question3Activity">
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/question3"
+            style="@style/mediumText"/>
+
+            <ImageView
+            android:id="@+id/q3_animal_image"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/lion"
+            android:contentDescription="@string/animal_image"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:stretchColumns="0">
+
+            <TableRow >
+
+                <EditText
+                    android:id="@+id/input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:padding="15dp"
+                    android:textColor="@color/colorAccent"
+                    android:hint="Enter The Animal Name"/>
+
+
+                <ImageView
+                    android:id="@+id/answer_sign_img"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/right_answer"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:visibility="visible"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <TextView
+            android:id="@+id/q3_check_textview"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:text="@string/check"
+            style="@style/mediumText"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/circular_bg2"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:onClick="checkQuestion3"/>
+        <ImageView
+            android:id="@+id/q3_next_icon"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/next"
+            android:layout_gravity="end"
+            android:onClick="q3NextAnimal"
+            android:layout_margin="5dp"
+            android:visibility="visible"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

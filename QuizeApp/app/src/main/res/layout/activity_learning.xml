@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context="com.example.androidl.quizeapp.LearningActivity">
+
+    <TextView
+        android:id="@+id/animal_name"
+        style="@style/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camel"
+        />
+
+    <ImageView
+        android:id="@+id/animal_image"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/camel"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="previous"
+            android:src="@drawable/left_arrow"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:src="@drawable/right_arrow"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:onClick="next"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

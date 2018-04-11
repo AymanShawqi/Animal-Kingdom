@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context="com.example.androidl.quizeapp.Question1Activity">
+
+    <TextView
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/heading"
+        android:textSize="24sp"
+        android:text="Q1: Choose The Correct Animal Name"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageView
+        android:id="@+id/q1_animal_image"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:layout_gravity="center"
+        android:src="@drawable/cow"
+        />
+
+    <RadioGroup
+        android:gravity="start"
+        android:id="@+id/q1_radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/q1_answer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/radioStyle"
+            android:text="lion"
+            android:onClick="checkAnswer"
+            />
+
+        <RadioButton
+            android:id="@+id/q1_answer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/radioStyle"
+            android:text="giraffe"
+            android:onClick="checkAnswer"/>
+
+        <RadioButton
+            android:id="@+id/q1_answer3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/radioStyle"
+            android:text="tiger"
+            android:onClick="checkAnswer"/>
+
+        <RadioButton
+            android:id="@+id/q1_answer4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/radioStyle"
+            android:text="elephant"
+            android:onClick="checkAnswer"/>
+
+    </RadioGroup>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp">
+        <TextView
+            android:id="@+id/score_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="your Score is"
+            style="@style/mediumText"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"/>
+        <ImageView
+            android:id="@+id/next_icon"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/next"
+            android:onClick="next"
+            android:layout_margin="5dp"
+            android:visibility="visible"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

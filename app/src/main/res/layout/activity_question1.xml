@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/scroll_view_style"
+    tools:context="com.example.androidl.quizeapp.Question1Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/q1_id"
+            style="@style/heading"
+            android:text="@string/q1"/>
+
+        <ImageView
+            android:id="@+id/q1_animal_image"
+            style="@style/q_animal_image_style"
+            android:layout_below="@+id/q1_id"
+            android:contentDescription="@string/animal_image"
+            android:src="@drawable/cow"
+            />
+
+        <RadioGroup
+            android:id="@+id/q1_radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q1_animal_image"
+            android:gravity="start|center_vertical"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/q1_answer1"
+                style="@style/radio_checkbox_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checkAnswer"
+                android:text="@string/lion"/>
+
+            <RadioButton
+                android:id="@+id/q1_answer2"
+                style="@style/radio_checkbox_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checkAnswer"
+                android:text="@string/giraffe"/>
+
+            <RadioButton
+                android:id="@+id/q1_answer3"
+                style="@style/radio_checkbox_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checkAnswer"
+                android:text="@string/tiger"/>
+
+            <RadioButton
+                android:id="@+id/q1_answer4"
+                style="@style/radio_checkbox_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checkAnswer"
+                android:text="@string/elephant"/>
+
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/next_icon"
+            style="@style/icon_style"
+            android:contentDescription="@string/next"
+            android:onClick="next"/>
+
+        <TextView
+            android:id="@+id/score_textview"
+            style="@style/q1_check_style"
+            android:onClick="showScore"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+
+</ScrollView>

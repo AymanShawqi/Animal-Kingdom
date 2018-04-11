@@ -1,0 +1,117 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonStyle">@style/AppTheme.Button</item>
+
+    </style>
+
+    <style name="AppTheme.Button" parent="Widget.AppCompat.Button">
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingTop">20sp</item>
+        <item name="android:paddingBottom">20sp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+    </style>
+
+    <style name="scroll_view_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/green_bg</item>
+        <item name="android:padding">@dimen/scroll_view_padding</item>
+        <item name="android:fillViewport">true</item>
+    </style>
+
+    <style name="heading">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textSize">@dimen/heading_text_size</item>
+        <item name="android:layout_marginBottom">@dimen/heading_margin_bottom</item>
+    </style>
+
+    <style name="q_animal_image_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">@dimen/q_animal_image_height</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <!--  -->
+    <style name="ButtonStyleSmall">
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+
+    <style name="mediumText">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
+
+    <style name="radio_checkbox_style">
+       <item name="android:paddingTop">@dimen/radio_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/radio_padding_vertical</item>
+        <item name="android:paddingLeft">@dimen/radio_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/radio_padding_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/radio_layout_margin_vertical</item>
+        <item name="android:layout_marginBottom">@dimen/radio_layout_margin_vertical</item>
+        <item name="android:textSize">@dimen/radio_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
+
+    <style name="sign_image">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+
+    <style name="icon_style">
+        <item name="android:layout_width">@dimen/icon_layout_size</item>
+        <item name="android:layout_height">@dimen/icon_layout_size</item>
+        <item name="android:layout_margin">@dimen/icon_layout_margin</item>
+        <item name="android:src">@drawable/next</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="check_style">
+        <item name="android:layout_width">@dimen/icon_layout_size</item>
+        <item name="android:layout_height">@dimen/icon_layout_size</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:text">@string/check</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@drawable/circular_bg2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
+
+    <style name="q1_check_style">
+        <item name="android:layout_width">@dimen/icon_layout_size</item>
+        <item name="android:layout_height">@dimen/icon_layout_size</item>
+        <item name="android:layout_margin">@dimen/icon_layout_margin</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:text">@string/score</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">@drawable/circular_bg2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
+</resources>
